@@ -1,0 +1,37 @@
+{
+  "name": "Limit",
+  "version": "1.0.0",
+  "description": "Library to set limits on a variable",
+  "keywords": "limit,contraint,min-max",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/westportautomation/Limit.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Larry Barr",
+      "email": "westportautomation@shaw.ca",
+      "maintainer": true
+    }
+],
+      
+  "license": "MIT",
+    "build": {
+        "include": [
+        "src/Limit.cpp",
+        "src/Limit.h"
+        ],
+        "exclude": [
+        "examples",
+        "test"
+        ]
+    },
+  "dependencies": {
+    "ownername/arduino-serial": "~1.0.0",
+    "ownername/arduino-serial-async": "~1.0.0"
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}

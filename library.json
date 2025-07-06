@@ -28,10 +28,6 @@
         "test"
         ]
     },
-  "dependencies": {
-    "ownername/arduino-serial": "~1.0.0",
-    "ownername/arduino-serial-async": "~1.0.0"
-  },
   "frameworks": "*",
   "platforms": "*"
 }

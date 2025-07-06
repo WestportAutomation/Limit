@@ -24,10 +24,9 @@
         "src/Limit.h"
         ],
         "exclude": [
-        "examples",
         "test"
         ]
     },
-  "frameworks": "*",
+  "frameworks": "Arduino",
   "platforms": "*"
 }
